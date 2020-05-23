@@ -1,0 +1,22 @@
+<html>
+<head>
+  <style>
+    #grade {
+      width: 350px; height: 70px;
+      background: black;
+      div {
+        width: 20px; height: 70px;
+        background: yellow;
+        position: relative;
+        animation: boxmove 5s linear infinite alternate;
+    }
+    @keyframes boxmove {
+      from { left: 0px;}
+      to { left: 350px;}
+    }
+  </style>
+</head>
+<body>
+  <h4>과제 #07-01, 조호주(201910031)
+</body>
+</html>
