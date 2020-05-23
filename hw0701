@@ -1,22 +1,25 @@
 <html>
 <head>
-  <style>
-    #grade {
-      width: 350px; height: 70px;
-      background: black;
-      div {
-        width: 20px; height: 70px;
-        background: yellow;
-        position: relative;
-        animation: boxmove 5s linear infinite alternate;
-    }
-    @keyframes boxmove {
-      from { left: 0px;}
-      to { left: 350px;}
-    }
-  </style>
+	<style>
+    	div.background {
+			width: 350px; height: 70px;
+			background: black;
+        }
+		div.movingbox {
+        		width: 40px; height: 70px;
+        		background: linear-gradient(to right, black, yellow, black);
+        		position: relative;
+        		animation: boxmove 5s linear infinite alternate;
+    	}
+    	@keyframes boxmove {
+      		from { left: 0px;}
+      		to { left: 310px;}
+    	}
+	</style>
 </head>
 <body>
-  <h4>과제 #07-01, 조호주(201910031)
+	<div class="background">
+    	<div class="movingbox"></div>
+	<h4>과제 #07-01, 조호주(201910031)</h4>
 </body>
 </html>
